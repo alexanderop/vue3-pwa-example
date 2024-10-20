@@ -30,8 +30,7 @@ export default defineConfig({
           {
             src: 'pwa-512x512.png',
             sizes: '512x512',
-            type: 'image/png',
-            purpose: 'any'
+            type: 'image/png'
           },
           {
             src: 'maskable-icon-512x512.png',
@@ -45,7 +44,7 @@ export default defineConfig({
         runtimeCaching: [
           {
             urlPattern: ({ request }) => request.destination === 'style' || request.destination === 'script' ||
-             request.destination === 'worker',
+              request.destination === 'worker',
             handler: 'StaleWhileRevalidate',
             options: {
               cacheName: 'static-resources',
