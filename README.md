@@ -44,7 +44,7 @@ This app demonstrates key PWA features:
 
 ## Learn More
 
-For a detailed walkthrough of how this PWA was built, check out the full blog post: [Create a Native-Like App in 4 Steps: PWA Magic with Vue 3 and Vite](link-to-your-blog-post)
+For a detailed walkthrough of how this PWA was built, check out the full blog post: [Create a Native-Like App in 4 Steps: PWA Magic with Vue 3 and Vite](https://alexop.dev/posts/create-pwa-vue3-vite-4-steps/)
 
 ## Contributing
 
